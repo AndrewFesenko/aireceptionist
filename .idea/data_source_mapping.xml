@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6b939c0-d945-4461-adde-a3fde30e5c45/console.sql" value="e6b939c0-d945-4461-adde-a3fde30e5c45" />
+    <file url="file://$PROJECT_DIR$/backend/routes/vapi.js" value="e6b939c0-d945-4461-adde-a3fde30e5c45" />
+  </component>
+</project>

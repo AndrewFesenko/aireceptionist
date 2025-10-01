@@ -1,0 +1,9 @@
+<h2>Tenants</h2>
+<a href="/admin/tenants/new">➕ Add Tenant</a>
+<ul>
+    <% tenants.forEach(t => { %>
+        <li>
+            <a href="/admin/tenants/<%= t.id %>"><%= t.name %></a>
+        </li>
+    <% }) %>
+</ul>

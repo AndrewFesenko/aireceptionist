@@ -1,0 +1,18 @@
+<h2>Call Detail</h2>
+<p><strong>From:</strong> <%= call.from_number %></p>
+<p><strong>To:</strong> <%= call.to_number %></p>
+<p><strong>Status:</strong> <%= call.status %></p>
+<p><strong>Started:</strong> <%= call.started_at %></p>
+<p><strong>Ended:</strong> <%= call.ended_at %></p>
+
+<% if (call.summary) { %>
+    <h3>Summary</h3>
+    <p><%= call.summary %></p>
+<% } %>
+
+<h3>Transcript</h3>
+<ul>
+    <% turns.forEach(t => { %>
+        <li><strong><%= t.role %>:</strong> <%= t.text %></li>
+    <% }) %>
+</ul>

@@ -1,0 +1,10 @@
+<h2>Calls</h2>
+<ul>
+    <% calls.forEach(c => { %>
+        <li>
+            <a href="/admin/calls/<%= c.id %>">
+                Call from <%= c.from_number %> to <%= c.to_number %> (status: <%= c.status %>)
+            </a>
+        </li>
+    <% }) %>
+</ul>
